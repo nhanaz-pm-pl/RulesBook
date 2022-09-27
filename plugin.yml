@@ -1,0 +1,20 @@
+---
+name: RulesBook
+version: 0.0.1
+main: NhanAZ\RulesBook\Main
+api: 4.0.0
+
+website: https://github.com/NhanAZ
+description: Show preview rules book when a player first joins the server or uses /rulesbook command
+author: NhanAZ
+
+commands:
+  rulesbook:
+    description: Show preview rules book
+    aliases: [rules]
+    permission: rulesbook.command
+permissions:
+  rulesbook.command:
+    description: Permission for /rulesbook
+    default: true
+...

@@ -1,0 +1,5 @@
+---
+pages:
+  page_1: "1. RulesBook\n2. version: 0.0.1\n3. api: 4.0.0\n4. author: NhanAZ"
+  page_2: "Edit the rules at:\nPocketMine-MP/plugin_data/RulesBook/config.yml"
+...
