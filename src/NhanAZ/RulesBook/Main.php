@@ -25,8 +25,8 @@ class Main extends PluginBase implements Listener {
 	private function sendPreview(Player $player): void {
 		$item = VanillaItems::WRITTEN_BOOK();
 		foreach ($this->getConfig()->get("pages") as $pageId => $pageText) {
-			$page = explode("_", $pageId)[1] - 1;
-			$item->setPageText((int) $page, TextFormat::colorize($pageText));
+			$page = intval(explode("_", $pageId)[1]) - 1;
+			$item->setPageText($page, TextFormat::colorize($pageText));
 		}
 		LibBook::sendPreview($player, $item);
 	}
