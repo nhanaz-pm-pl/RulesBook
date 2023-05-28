@@ -6,6 +6,6 @@ projects:
   RulesBook:
     path: ""
     libs:
-      - src: cooldogedev/libBook/libBook
+      - src: cooldogepm/libBook/libBook
         version: 0.0.2
 ...
