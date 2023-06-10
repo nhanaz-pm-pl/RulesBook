@@ -1,8 +1,8 @@
 ---
 name: RulesBook
-version: 0.0.2
+version: 0.0.3
 main: NhanAZ\RulesBook\Main
-api: 4.0.0
+api: 5.0.0
 
 website: https://github.com/NhanAZ
 description: Show preview rules book when a player first joins the server or uses /rulesbook command
